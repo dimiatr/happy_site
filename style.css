@@ -43,12 +43,12 @@ a {
     cursor: pointer;
 }
 
-.first {
+.first, .four, .five {
     display: flex;
 }
 
 
-.first__container {
+.first__container, .four__container {
     margin-top: 150px;
     margin-left: 470px;
     width: 420px;
@@ -61,7 +61,7 @@ a {
     font-size: 54px;
 }
 
-.first__descript p {
+.first__descript p, .four__descript p, .five_descript p {
     font-size: 16px;
 }
 
@@ -69,7 +69,7 @@ a {
     margin-top: -40px;
 } 
 
-.first__img {
+.first__img, .four__img {
     margin-left: 195px;
     margin-top: 100px;
 }
@@ -181,4 +181,44 @@ a {
 .three__statics {
     text-align: center;
     color: white;
+}
+
+.four__mini-descript, .five__mini-descript {
+    font-size: 14px;
+    color: #222222;
+}
+
+.four__heading h2, .five__heading h2 {
+    font-size: 32px;
+}
+
+.four__img_fon {
+    width: 385px;
+    height: 570px;
+    background-image: url(img/fitst/four__img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.five__container {
+    margin-top: 150px;
+    margin-left: 260px;
+    width: 420px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.five__img {
+    /* margin-right: 195px; */
+    margin-top: 100px;
+    margin-left: 465px;
+}
+
+.five__img_fon {
+    width: 385px;
+    height: 570px;
+    background-image: url(img/fitst/five__img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
