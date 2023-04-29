@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    background-color: white;
+    width: 1440px;
+    margin: 0 auto;
+    font-family: 'Poppins';
+}
+
+.header__block {
+    width: 1440px;
+    height: 90px;
+    margin: 0 auto;
+}
+
+.header__block_content {
+    width: 1200px;
+    height: 90px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.header__logo {
+    margin: 25px 32px 25px;
+}
+
+.header__menu {
+    margin: auto;
+    margin-left: 417px;
+    word-spacing: 32px;
+}
+
+a {
+    text-decoration:none;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+
+.first {
+    position: relative;
+}
+
+.first__container {
+    position: absolute;
+    top: 200px;
+    left: 215px;
+    bottom: 145px;
+    width: 420px;
+}
+
+.first__heading h2 {
+    font-size: 54px;
+}
+
+.first__descript p {
+    font-size: 16px;
+}
+
+.first__heading, .first__descript {
+    margin-top: -20px;
+}
+
+.first__img {
+    position: absolute;
+    left: 829px;
+    top: 100px;
+}
+
+.first__img_fon {
+    width: 376px;
+    height: 570px;
+    background-image: url(img/fitst/mockup.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+}
+
+.first__img_pic {
+    width: 322px;
+    height: 695px;
+    background-image: url(img/fitst/fon.jpg);
+    position: absolute;
+    top: 25px;
+    left: 28px;
+}
