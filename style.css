@@ -1,7 +1,7 @@
 body {
     margin: 0;
     background-color: white;
-    width: 1440px;
+    /* width: 1440px; */
     margin: 0 auto;
     font-family: 'Poppins';
 }
@@ -43,18 +43,14 @@ a {
     cursor: pointer;
 }
 
-
-
-
 .first {
     display: flex;
 }
 
 
 .first__container {
-    margin-top: 200px;
-    margin-left: 215px;
-    margin-bottom: 145px;
+    margin-top: 150px;
+    margin-left: 470px;
     width: 420px;
     padding: 10px;
     display: flex;
@@ -79,16 +75,93 @@ a {
 }
 
 .first__img_fon {
-    width: 376px;
+    width: 385px;
     height: 570px;
     background-image: url(img/fitst/Phone.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
-
-
-
 .two {
-    background-color: aquamarine;
+    background-color: #222222;
+}
+
+.two__descript {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.two__descript_center {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    color: white;
+}
+
+.two__descript_small {
+    font-size: 14px;
+}
+
+.two__descript_big {
+    font-size: 32px;
+    text-align: center;
+}
+
+.two__card-block {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.two__cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    color: black;
+    gap: 10px;
+    padding: 5px;
+}
+
+.two__card {
+    position: relative;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.two__img {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.two__descripts div{
+    text-align: center;
+    background-color: #F2F2F2;
+}
+
+.two__card_heading {
+    padding-top: 40px;
+    color: #0278ED;
+    font-size: 23px;
+}
+
+.two__card_descript {
+    padding: 20px;
+    border-radius: 0 0 20px 20px;
+}
+
+.two__icon {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    background-color: #0278ED;
+    z-index: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 259px;
+    left: 158px;
 }
