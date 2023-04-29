@@ -46,17 +46,19 @@ a {
 
 
 
-
 .first {
-    position: relative;
+    display: flex;
 }
 
+
 .first__container {
-    position: absolute;
-    top: 200px;
-    left: 215px;
-    bottom: 145px;
+    margin-top: 200px;
+    margin-left: 215px;
+    margin-bottom: 145px;
     width: 420px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .first__heading h2 {
@@ -67,31 +69,26 @@ a {
     font-size: 16px;
 }
 
-.first__heading, .first__descript {
-    margin-top: -20px;
-}
+ .first__heading, .first__descript {
+    margin-top: -40px;
+} 
 
 .first__img {
-    position: absolute;
-    left: 829px;
-    top: 100px;
+    margin-left: 195px;
+    margin-top: 100px;
 }
 
 .first__img_fon {
     width: 376px;
     height: 570px;
-    background-image: url(img/fitst/mockup.jpg);
+    background-image: url(img/fitst/Phone.png);
     background-size: contain;
     background-repeat: no-repeat;
-    position: relative;
-    z-index: 1;
 }
 
-.first__img_pic {
-    width: 322px;
-    height: 695px;
-    background-image: url(img/fitst/fon.jpg);
-    position: absolute;
-    top: 25px;
-    left: 28px;
+
+
+
+.two {
+    background-color: aquamarine;
 }
