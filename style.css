@@ -288,28 +288,28 @@ a {
     height: 24px;
 }
 
-.seven__container {
+.seven__container, .nine__container {
     width: 1200px;
     margin: 100px auto 0px;
 }
 
-.seven__content, .eight__content {
+.seven__content, .eight__content, .nine__content {
     width: 600px;
     text-align: center;
     margin: 0 auto;
 }
 
-.seven__content_block1, .eight__content_block1 {
+.seven__content_block1, .eight__content_block1, .nine__content_block1 {
     font-size: 14px;
     color: #222222;
 }
 
-.seven__content_block2, .eight__content_block2 {
+.seven__content_block2, .eight__content_block2, .nine__content_block2 {
     font-size: 32px;
     color: #222222;
 }
 
-.seven__content_block3, .eight__content_block3 {
+.seven__content_block3, .eight__content_block3, .nine__content_block3 {
     font-size: 18px;
     color: #666666;
 }
@@ -419,4 +419,20 @@ a {
 
 .eight__card_img3 {
     background-image: url(img/eight/eight__img3.png);
+}
+
+.nine {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nine__img {
+    width: 180px;
+    height: 60px;
+    background-image: url(img/nine/AppStore.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 20px auto 100px;
+    cursor: pointer;
 }
