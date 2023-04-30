@@ -436,3 +436,93 @@ a {
     margin: 20px auto 100px;
     cursor: pointer;
 }
+
+.ten {
+    background-color: #E5E5E5;
+}
+
+.ten__container {
+    width: 1200px;
+    padding: 100px 0;
+    margin: 0 auto;
+}
+
+
+.ten__faq, .ten__descript {
+    padding-left: 35px;
+}
+
+.ten__faq {
+    font-size: 32px;
+    color: #222222;
+}
+
+.ten__descript {
+    font-size: 15px;
+    color: #222222;
+}
+
+.ten__faqs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
+}
+
+.ten__quest {
+    padding: 15px;
+    font-size: 18px;
+    color: #222222;
+}
+
+.ten__answer {
+    padding: 0 15px 15px 15px;
+    font-size: 16px;
+    color: #222222;
+}
+
+.foot__container {
+    margin: 100px auto 50px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foot__logo {
+    width: 120px;
+    height: 126px;
+    background-image: url(img/logo__footer.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.foot__social {
+    width: 115px;
+    height: 25px;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.foot__twit, .foot__inst, .foot__fb {
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.foot__twit {
+    background-image: url(img/twit.svg);
+}
+
+.foot__inst {
+    background-image: url(img/inst.svg);
+}
+
+.foot__fb {
+    background-image: url(img/fb.svg);
+}
+
+.foot__descript {
+    color: #d6d6d6;
+}
