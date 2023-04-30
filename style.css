@@ -290,26 +290,26 @@ a {
 
 .seven__container {
     width: 1200px;
-    margin: 100px auto 50px;
+    margin: 100px auto 0px;
 }
 
-.seven__content {
+.seven__content, .eight__content {
     width: 600px;
     text-align: center;
     margin: 0 auto;
 }
 
-.seven__content_block1 {
+.seven__content_block1, .eight__content_block1 {
     font-size: 14px;
     color: #222222;
 }
 
-.seven__content_block2 {
+.seven__content_block2, .eight__content_block2 {
     font-size: 32px;
     color: #222222;
 }
 
-.seven__content_block3 {
+.seven__content_block3, .eight__content_block3 {
     font-size: 18px;
     color: #666666;
 }
@@ -320,7 +320,7 @@ a {
     gap: 10px;
     width: 1200px;
     margin: 0 auto;
-    padding: 30px;
+    padding: 50px;
 }
 
 .seven__card {
@@ -357,3 +357,66 @@ a {
     cursor: pointer;
 }
 
+.eight {
+    background-color: #E5E5E5;
+}
+
+.eight__container {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
+} 
+
+.eight__cards {
+    width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+    padding: 0 50px 100px;
+    gap: 10px;
+}
+
+.eight__card {
+    background-color:white ;
+    padding: 20px 20px 0 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.eight__card_bio {
+    display: flex;
+    align-items: center;
+}
+
+.eight__card_descript {
+    font-size: 16px;
+    color: #222222;
+}
+
+.eight__card_img1, .eight__card_img2, .eight__card_img3 {
+    width: 48px;
+    height: 48px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+}
+
+.eight__card_info div {
+    font-size: 14px;
+    color: #222222;
+}
+
+.eight__card_img1 {
+    background-image: url(img/eight/eight__img1.png);
+}
+
+.eight__card_img2 {
+    background-image: url(img/eight/eight__img2.png);
+}
+
+.eight__card_img3 {
+    background-image: url(img/eight/eight__img3.png);
+}
