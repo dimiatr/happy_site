@@ -210,7 +210,6 @@ a {
 }
 
 .five__img {
-    /* margin-right: 195px; */
     margin-top: 100px;
     margin-left: 465px;
 }
@@ -222,3 +221,70 @@ a {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.six {
+    background-color: #222222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.six__container {
+    padding: 13px;
+    margin-top: 80px;
+    max-width: 578px;
+}
+
+.six__container_block1 {
+    text-align: center;
+    font-size: 13px;
+}
+
+.six__container_block2 {
+    text-align: center;
+    font-size: 32px;
+}
+
+.six__container_block3 {
+    text-align: center;
+    font-size: 18px;
+}
+
+.six__img {
+    margin-top: 21px;
+    width: 600px;
+    height: 488px;
+    background-image: url(img/six/six__img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.six__theme {
+    display: flex;
+    gap: 90px;
+    padding: 36px;
+}
+
+.six__theme div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.six__theme_light {
+    background-image: url(img/six/sun.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+}
+
+.six__theme_dark {
+    background-image: url(img/six/monthsvg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+}
+
