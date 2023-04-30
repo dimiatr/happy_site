@@ -288,3 +288,72 @@ a {
     height: 24px;
 }
 
+.seven__container {
+    width: 1200px;
+    margin: 100px auto 50px;
+}
+
+.seven__content {
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.seven__content_block1 {
+    font-size: 14px;
+    color: #222222;
+}
+
+.seven__content_block2 {
+    font-size: 32px;
+    color: #222222;
+}
+
+.seven__content_block3 {
+    font-size: 18px;
+    color: #666666;
+}
+
+.seven__cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.seven__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F2F2F2;
+    border-radius: 10px;
+}
+
+.seven__card_name {
+    margin-top: 49px;
+    margin-bottom: -25px;
+    font-size: 18px;
+}
+
+.seven__card_price {
+    font-size: 108px;
+    margin-bottom: 10px;
+}
+
+.seven__card_time {
+    font-size: 14px;
+    color: #222222;
+}
+
+.seven__btn {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
